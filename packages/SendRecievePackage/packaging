@@ -1,12 +1,10 @@
 
 # abort script on any command that exits with a non zero value
 set -e
-echo "Building my send and recieve source…”
-(
-    cd SendRecievePackage
-    ./configure \
-    --prefix=${BOSH_INSTALL_TARGET} \
-    --enable-so
-    make
-    make install
-)
+
+# $BOSH_INSTALL_TARGET - where you copy/install files to be included in package
+
+echo “Jar built in eclipse…”
+mv SendRecieve.jar/* $BOSH_INSTALL_TARGET
+
+echo “Should investigate compiling the code and creating SendRecieve.jar …”

@@ -3,6 +3,9 @@
 name: SendRecievePackage
 
 dependencies:
-
+     amqp-client-4.0.2.jar
 files:
      SendRecievePackage/SendRecieve.jar
+
+templates:
+     runsimplemessage.erb: runsimplemessage.erb

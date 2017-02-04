@@ -3,7 +3,8 @@ name: rabbitmq
 packages:
 - rabbitmq
 templates:
-  config/rabbitmq.config.erb: config/rabbitmq.config
+   rabbitmq.config.erb: rabbitmq.config
+
 properties:
   rabbitmq.management:
     description: "Install the rabbitmq management portal"
