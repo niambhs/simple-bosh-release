@@ -10,3 +10,10 @@ I downloaded [my virtual box](https://www.virtualbox.org/wiki/Downloads).
 
 So, my first blip, was using Ruby. It's a new language for me, which was interesting. I downloaded RubyMine. However, when it came to producing build artifacts,
 I could not create Gem files. Time to move on, since code compilation was not the priority generating a built artifact was! So, I moved on to produce a simple Java file.
+
+Once I got my baring with a simple Java file, I got my package created and then I started looking at the jobs.
+
+Then, back to priorities, 'write a new BOSH release that can emit a message.' This led me to look at running an instance of rabbitmq. 
+
+### rabbitmq
+The first thing to do is review the [tutorial](https://www.rabbitmq.com/tutorials/tutorial-one-java.html)

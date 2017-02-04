@@ -1,0 +1,30 @@
+---
+name: rabbitmq
+packages:
+- rabbitmq
+templates:
+  config/rabbitmq.config.erb: config/rabbitmq.config
+properties:
+  rabbitmq.management:
+    description: "Install the rabbitmq management portal"
+    default: true
+
+  rabbitmq.management_port:
+    description: "Rabbitmq management portal port"
+    default: 15672
+
+  rabbitmq.port:
+    description: "Rabbitmq listen port"
+    default: 5672
+
+  rabbitmq.erlang_cookie:
+    description: "Rabbitmq cookie for clustering"
+    default: cf-cookie
+
+  rabbitmq.default_user:
+    description: "Rabbitmq default username"
+    default: guest
+
+  rabbitmq.default_password:
+    description: "Rabbitmq default password"
+    default: guest
