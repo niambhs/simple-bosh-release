@@ -2,10 +2,10 @@
 This is a very basic bosh release that delivers a simple ruby file. 
 ## Approach taken
 The following document outlines the approach I took in creating my own release.
-- I started out reading https://bosh.io/docs/create-release.html.
-  1. Too much low level detail on what was required for my first time.
-- 	http://www.starkandwayne.com/blog/your-first-bosh-release/.
-  1. This was a really good high level blog that got me started on the right track.
+I started out reading https://bosh.io/docs/create-release.html. This was really good, as the creation of the release was on going, but not for my first read. [This](http://www.starkandwayne.com/blog/your-first-bosh-release/) blog by Starke and Wayne 
+provided the right level of information on how to proceed. 
+
+
   2. The link above provided the context for https://github.com/cloudfoundry/bosh-lite 
 -	I installed Vagrant https://www.vagrantup.com/docs/getting-started/
 -	I installed my virtual box from https://www.virtualbox.org/wiki/Downloads 
@@ -21,5 +21,7 @@ The following document outlines the approach I took in creating my own release.
  -	So, second problem - build artifcats, how do I get these in to my simple bosh release?
     1. Where do my build artifacts reside? 
     2. When in Ruby, we create Gem Files! 
+    3. Many attempts were made to create Gem files and the awakening of my family meant I abandoned Ruby! The reason was, compiling code was not the priority, 
+       generating a built artifact was! So, I moved on to produce a simple Java file. 
 
 
