@@ -1,0 +1,10 @@
+---
+name: MyMessage
+
+dependencies:
+
+files:
+     MyMessage/rabbitmq-server-generic-unix-3.6.6.tar.xz.java
+
+
+
