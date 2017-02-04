@@ -1,0 +1,7 @@
+---
+name: MySimpleJavaFile
+
+dependencies:
+
+files:
+     MySimpleJavaFile/MyJavaFile.jar
