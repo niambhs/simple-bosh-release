@@ -1,2 +1,14 @@
 # abort script on any command that exits with a non zero value
 set -e
+echo "Extracting apache rabbitmq..."
+tar xzf rabbitmq/rabbitmq-server-generic-unix-3.6.6.tar.xz
+
+echo "Building apache rabbitmq..."
+(
+    cd rabbitmq
+    ./configure \
+    --prefix=${BOSH_INSTALL_TARGET} \
+    --enable-so
+    make
+    make install
+)

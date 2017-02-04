@@ -1,7 +1,7 @@
 ---
-name: MySimpleJavaFile
+name: rabbitmq
 
 dependencies:
 
 files:
-     MySimpleJavaFile/MyJavaFile.jar
+     rabbitmq/rabbitmq-server-generic-unix-3.6.6.tar.xz.java
