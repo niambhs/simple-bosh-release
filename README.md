@@ -13,8 +13,11 @@ The following document outlines the approach I took in creating my own release.
 -	I created my first ever Ruby class! 
 -	I added my class on to my git repository https://github.com/niambhs/RubyRepo.git
 -	So, question how do I connect my bosh release to the source in my git repo?
-  1. Following the instructions in [add the sources](https://github.com/georgethebeatle/simple-bosh-release/blob/master/README.md#add-the-sources)
-  ``` mkdir myRubyCode  ```
+  1. This was not overtly intuitive (highly probable that I was at fault here!) 
+  2. Following the instructions in [add the sources](https://github.com/georgethebeatle/simple-bosh-release/blob/master/README.md#add-the-sources)
+  3. I ran  ``` mkdir myRubyCode  ``` 
+  4. But the the workspace was not commited to git, installing bash lite I installed to a workspase in my directory instead of under git. 
+  5. So I copied the workspace to git (Doh!!)
 
 
 
