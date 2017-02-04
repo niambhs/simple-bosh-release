@@ -1,0 +1,13 @@
+
+public class MyJavaFile {
+
+	public static void main(String[] args) {
+	
+     System.out.print("   puts "What is your name?");
+    $name = STDIN.gets
+    puts "Hi "+$name + " I hope you are keeping well"");;"
+    		+ "
+
+	}
+
+}
