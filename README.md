@@ -62,7 +62,6 @@ Logged in as `admin'
 3. Update the spec for each job, remember SendRecievePackage depends on rabbitmq.
 4. Update the package files.
 
-
-
-### rabbitmq
-The first thing to do is review the [tutorial](https://www.rabbitmq.com/tutorials/tutorial-one-java.html)
+### Add the deployment descriptor
+1. Create the release folder.
+2. Added the yml file.
