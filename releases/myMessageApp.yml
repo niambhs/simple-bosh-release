@@ -1,0 +1,23 @@
+---
+packages:
+- name: rabbitmq
+  version: 1
+- name: SendRecievePackage
+  version: 1
+  dependencies:
+  - rabbitmq 
+  instances: 1
+  resource_pool: common-resource-pool
+  networks:
+    - name: webapp-network
+      static_ips:
+        - 10.244.1.2
+jobs:
+- name: myMessageApp
+  version: 1 
+license:
+  version: 1
+commit_hash: 123
+uncommitted_changes: true
+name: myMessageApp
+version: '1'
