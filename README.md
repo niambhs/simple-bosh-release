@@ -28,14 +28,14 @@ $ cd bosh-lite```
 bin/add-route$ vagrant up --provider=virtualbox```
 
 6. Target the BOSH Director. When prompted to log in, use admin/admin.
-```# if behind a proxy, exclude both the VM's private IP and xip.io by setting no_proxy (xip.io is introduced later)
-$ export no_proxy=xip.io,192.168.50.4
+```# if behind a proxy, exclude both the VM's private IP and xip.io by setting no_proxy (xip.io is introduced later)```
+```$ export no_proxy=xip.io,192.168.50.4```
 
-$ bosh target 192.168.50.4 lite
-Target set to `Bosh Lite Director'
-Your username: admin
-Enter password: *****
-Logged in as `admin'```
+```$ bosh target 192.168.50.4 lite```
+```Target set to `Bosh Lite Director'```
+```Your username: admin```
+```Enter password: *****```
+```Logged in as `admin'```
 
 7. Add a set of route entries to your local route table to enable direct Warden container access every time your networking gets reset (e.g. reboot or connect to a different network). 
 ```bin/add-route```
