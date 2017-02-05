@@ -65,3 +65,9 @@ Logged in as `admin'
 ### Add the deployment descriptor
 1. Create the release folder.
 2. Added the yml file.
+
+### Create a Dev release
+1. Run the following command `bosh create release`, add your release name.
+2. Find the bosh director `bosh target`
+3. Target bosh lite director `bosh target`
+
