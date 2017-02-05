@@ -54,8 +54,14 @@ Logged in as `admin'
 2. Update the monit file with start stop commands. 
 3. An erb file is created for each job, installing rabbitmq and building the java source and creating the jar file.
 4. Create the ctl.erb script to store logs in '/var/vcap/rabbitmq/logs'
+5. Updated the spec file to contain a list of the packages, templates and the properties for rabbitmq
 
-**Question** How are jobs ordered?
+### Generate Packaging Scripts
+1. Run the following command `bosh generate package SendRecievePackage`
+2. Run the following command `bosh generate package rabbitmq`
+3. Update the spec for each job, remember SendRecievePackage depends on rabbitmq.
+4. Update the package files.
+
 
 
 ### rabbitmq
