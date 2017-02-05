@@ -53,7 +53,7 @@ Logged in as `admin'
 1. Run the following command `bosh generate job myMessageApp`
 2. Update the monit file with start stop commands. 
 3. An erb file is created for each job, installing rabbitmq and building the java source and creating the jar file.
-4. Create the ctl.erb script to store logs in '/var/vcap/sys/log/JOB_NAME'
+4. Create the ctl.erb script to store logs in '/var/vcap/rabbitmq/logs'
 
 **Question** How are jobs ordered?
 
